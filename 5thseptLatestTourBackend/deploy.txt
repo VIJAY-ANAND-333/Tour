@@ -1,0 +1,20 @@
+ step 1 = push into github
+
+
+ step 2 = ec2 instance, git clone <url>
+
+ step 3 = npm install for both frontend and backend
+
+ step 4 = npm run start - backend - npm run start - frontend
+
+ step 5 = ip to open
+
+
+ step 6 = ec-instance:3000 check if frontend is loading
+
+
+ step 7 = set up elb & target group for redirecting to ec2 -> port
+
+
+step 8 => looad balancer - url - should point to frontend
+
